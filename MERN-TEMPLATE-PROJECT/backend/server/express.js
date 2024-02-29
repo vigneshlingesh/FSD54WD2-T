@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(compress());
 app.use(helmet());
 app.use(cors());
-
+//vicky
 app.use("/", userRoutes);
 app.use("/", authRoutes);
 module.exports = app;
